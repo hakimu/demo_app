@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'newrelic_rpm'
+gem 'newrelic_rpm', '~> 3.7.2.195'
 gem 'rails', '3.2.15'
 gem 'bootstrap-sass', '2.1'
 gem 'bcrypt-ruby', '3.0.1'
