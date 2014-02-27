@@ -194,6 +194,7 @@ development:
   # NOTE: for initial evaluation purposes, you may want to temporarily
   # turn the agent on in development mode. m
   monitor_mode: true
+  app_name: <%= ENV["NEW_RELIC_APP_NAME"] %> (Development)
 
   # Rails Only - when running in Developer Mode, the New Relic Agent will
   # present performance information on the last 100 transactions you have
