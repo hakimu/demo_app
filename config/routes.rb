@@ -1,4 +1,8 @@
 DemoApp::Application.routes.draw do
+  get "ignore/foo"
+
+  get "ignore/bar"
+
   resources :microposts
 
 
