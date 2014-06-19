@@ -4,4 +4,6 @@ class IgnoreController < ApplicationController
 
   def bar
   end
+
+  newrelic_ignore :only => [:bar]
 end
