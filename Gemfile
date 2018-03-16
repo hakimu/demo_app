@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'newrelic_rpm'
+
 gem 'rails', '3.2.15'
 gem 'bootstrap-sass', '2.1'
 gem 'bcrypt-ruby', '3.0.1'
@@ -18,6 +18,8 @@ group :development, :test do
   gem 'spork', '0.9.2'
 end
 
+gem 'newrelic_rpm'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -27,7 +29,8 @@ group :assets do
 end
 
 group :test do
-  gem 'capybara', '1.1.2'
+  # gem 'capybara', '1.1.2'
+  gem 'capybara'
   gem 'factory_girl_rails', '4.1.0'
   gem 'cucumber-rails', '1.2.1', :require => false
   gem 'database_cleaner', '0.7.0'
